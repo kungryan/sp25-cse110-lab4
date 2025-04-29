@@ -35,3 +35,13 @@
 - E. `false`
 - F. `true`
 15. The == operator perform type conversions before comparing whereas the === is considered 'strict' and does not.
+### Functions
+17. It returns the array `[2, 4, 6]`. It passes in the array `[1,2,3]` and the function `doSomething` to the parameters `array` and `callback` respectively. For each iteration of the for loop, it runs the function passed by callback, `doSomething` and appends it to the new array, effectively multiplying each value of `array` by 2.
+### setInterval(), setTimeout(), clearTimeout()
+19. The code prints:
+```
+1
+4
+3
+2
+```
