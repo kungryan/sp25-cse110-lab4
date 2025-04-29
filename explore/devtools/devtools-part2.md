@@ -1,0 +1,2 @@
+1. The bug was that it was taking in the number as strings and by JavaScript's logic, would concatenate the two strings instead of adding them.
+2. I would fix it by converting the strings into numbers before applying the adding operation.
